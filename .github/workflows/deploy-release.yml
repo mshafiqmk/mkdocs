@@ -1,9 +1,9 @@
 name: deploy-release
 
-on:
-  push:
-    tags:
-    - '*'
+# on:
+#   push:
+#     tags:
+#     - '*'
 
 jobs:
   pypi:
