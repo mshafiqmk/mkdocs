@@ -79,3 +79,4 @@ discussion forums is expected to follow the [PyPA Code of Conduct].
 ## License
 
 [BSD-2-Clause](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)
+
