@@ -38,9 +38,9 @@ jobs:
         run: python -m pip install mkdocs-techdocs-core==1.*
 
       - name: Generate docs site
-        run: techdocs-cli generate --no-docker --verbose --source-dir . --output-dir ./docs
+        run: techdocs-cli generate --no-docker --verbose --source-dir . --output-dir ./docs-generate
 
       - uses: actions/upload-artifact@v3
         with:
           name: docs
-          path: docs
+          path: docs-generate
